@@ -24,7 +24,7 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/
 organizations:
-  - name: Stanford University
+  - name: Cornell University
     url: https://www.stanford.edu/
 education:
   courses:
