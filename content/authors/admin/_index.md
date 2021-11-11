@@ -1,10 +1,11 @@
 ---
+title: Jiayue Wan
 role: PhD student
 avatar_filename: avatar.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
-  - Artificial Intelligence
+  - Artificial Intelligence (AI)
   - Computational Linguistics
   - Information Retrieval
 social:
@@ -36,7 +37,6 @@ education:
       year: 2016
 superuser: true
 highlight_name: true
-title: Jiayue Wan
 email: ""
 ---
 I'm a fourth year PhD student.
@@ -47,4 +47,4 @@ I'm a fourth year PhD student.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/resume.pdf" "newtab" %}}resume{{% /staticref %}}.
