@@ -19,7 +19,7 @@ social:
     link: https://github.com/jiayuewan
   - icon: linkedin
     icon_pack: fab
-    link: www.linkedin.com/in/jiayuewan
+    link: https://linkedin.com/in/jiayuewan
 organizations:
   - name: Cornell University
     url: https://www.stanford.edu/
