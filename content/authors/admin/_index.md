@@ -22,7 +22,7 @@ social:
     link: https://github.com/gcushen
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: www.linkedin.com/in/jiayuewan
 organizations:
   - name: Cornell University
     url: https://www.stanford.edu/
