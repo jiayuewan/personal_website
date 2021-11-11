@@ -22,18 +22,18 @@ social:
     link: https://linkedin.com/in/jiayuewan
 organizations:
   - name: Cornell University
-    url: https://www.stanford.edu/
+    url: https://www.cornell.edu/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
+    - course: Ph.D. in Operations Research
+      institution: Cornell University
+      year: Expected May 2023
+    - course: M.S. in Management Science & Engineering
       institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+      year: 2018
+    - course: B.S.in Mathematics and Physics
+      institution: Haverford College
+      year: 2016
 superuser: true
 highlight_name: true
 title: Jiayue Wan
