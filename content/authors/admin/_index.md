@@ -2,19 +2,19 @@
 title: Jiayue Wan
 role: PhD student
 avatar_filename: avatar.jpg
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: My research interests include machine learning, stochastic modeling and experimental design.
 interests:
-  - Artificial Intelligence (AI)
-  - Computational Linguistics
-  - Information Retrieval
+  - Bayesian Optimization
+  - Machine Learning
+  - Stochastic Modeling
+  - Experimental Design
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: /#contact
+  #- icon: envelope
+  #  icon_pack: fas
+  #  link: /#contact
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=ULPMP4UAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/jiayuewan
@@ -39,12 +39,12 @@ superuser: true
 highlight_name: true
 email: ""
 ---
-I'm a fourth year PhD student.
+I'm a fourth year PhD student in the School of Operations Research and Information Engineering at Cornell University, where I am fortunate to be advised by Professor [Peter Frazier](https://people.orie.cornell.edu/pfrazier/). Prior to Cornell, I completed my undergraduate in mathematics and physics at Haverford College and earned my Master's degree in management science & engineering at Stanford University.
 
+My research interests lie in
 
+COVID modeling
 
+Contact me at [jw2529@cornell.edu](mailto:jw2529@cornell.com)
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/resume.pdf" "newtab" %}}resume{{% /staticref %}}.
+{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/resume_Jiayue_Wan.pdf" "newtab" %}}resume{{% /staticref %}}.
