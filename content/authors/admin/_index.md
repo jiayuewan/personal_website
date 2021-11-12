@@ -39,7 +39,7 @@ superuser: true
 highlight_name: true
 email: ""
 ---
-I'm a fourth year PhD student in the School of Operations Research and Information Engineering at Cornell University, where I am fortunate to be advised by Professor [Peter Frazier](https://people.orie.cornell.edu/pfrazier/). Prior to Cornell, I completed my undergraduate in mathematics and physics at Haverford College and earned my Master's degree in management science & engineering at Stanford University.
+I'm a fourth year PhD student in the School of [Operations Research and Information Engineering](https://www.orie.cornell.edu/orie) at [Cornell University](https://www.cornell.edu), where I am fortunate to be advised by Professor [Peter Frazier](https://people.orie.cornell.edu/pfrazier/). Prior to Cornell, I completed my undergraduate in Mathematics and Physics at [Haverford College](https://www.haverford.edu) and earned my Master's degree in Management Science & Engineering at [Stanford University](https://www.stanford.edu).
 
 My research interests lie in
 
