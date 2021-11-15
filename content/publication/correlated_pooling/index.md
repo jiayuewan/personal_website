@@ -26,13 +26,13 @@ publishDate:
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: Preprint
+publication:
 # publication_short: In *PNAS*
 
-abstract: "We consider epidemiological modeling for the design of COVID-19 interventions in university populations, which have seen significant outbreaks during the pandemic. A central challenge is sensitivity of predictions to input parameters coupled with uncertainty about these parameters. Nearly two years into the pandemic, parameter uncertainty remains because of changes in vaccination efficacy, viral variants and mask mandates, and because universities' unique characteristics hinder translation from the general population: a high fraction of young people, who have higher rates of asymptomatic infection and social contact, as well as an enhanced ability to implement behavioral and testing interventions. We describe an epidemiological model that formed the basis for Cornell University's decision to reopen for in-person instruction in fall 2020 and supported the design of an asymptomatic screening program instituted concurrently to prevent viral spread. We demonstrate how the structure of these decisions allowed risk to be minimized despite parameter uncertainty leading to an inability to make accurate point estimates and how this generalizes to other university settings. Looking forward, we find that once-per-week asymptomatic screening of vaccinated undergraduate students provides substantial value, even if all students are vaccinated, and that more targeted testing of the most social vaccinated students provides further value."
+abstract: "Population-wide screening to identify and isolate infectious individuals is a powerful tool for controlling COVID-19 and other infectious diseases. Testing an entire population, however, requires significant resources. Group testing can enable large-scale screening by testing more people with fewer resources, but dilution degrades its sensitivity, reducing its effectiveness as an infection control measure. Analysis of this tradeoff typically assumes that pooled samples are independent. Building on recent empirical results in the literature, we argue that this assumption significantly underestimates the true benefits of group testing. Indeed, placing samples from a social group or household into the same pool correlates a pool's samples. As a result, a positive pool likely contains multiple positive samples, increasing a pooled test's sensitivity and also tending to reduce the number of pools that require follow-up tests. We prove that under a general correlation structure, pooling correlated samples together (called _correlated pooling_) achieves higher sensitivity and requires fewer tests per positive identified compared to independently pooling the samples (called _naive pooling_) using the same pool size within the two-stage Dorfman procedure, the most widely-used group testing method. To the best of our knowledge, our work is the first to theoretically characterize correlation's effect on sensitivity, and the first to study its effect on test usage under a realistic test error model. Under a representative starting prevalence of 1%, simulation results estimate that correlated pooling requires 12.9% fewer tests than naive pooling to control an epidemic. Thus, we argue that correlation is an important consideration for policy-makers designing infection control interventions: it makes screening more attractive for infection control and it suggests that sample collection should maximize correlation."
 
 
 # Summary. An optional shortened abstract.
@@ -49,7 +49,7 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://people.orie.cornell.edu/shane/pubs/covid_residential.pdf'
-url_code: 'https://github.com/peter-i-frazier/group-testing'
+url_code: 'https://github.com/jiayuewan/group-testing-with-household-correlation'
 url_dataset: ''
 url_poster: ''
 url_project: ''

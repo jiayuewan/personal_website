@@ -49,7 +49,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2008.06642'
+url_pdf: 'https://arxiv.org/pdf/2008.06642.pdf'
 url_code: 'https://github.com/Wanogon/COVID-19-Project'
 url_dataset: ''
 url_poster: ''
