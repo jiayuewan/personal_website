@@ -27,7 +27,7 @@ experience:
     company_url: ''
     company_logo:
     location: Ithaca, NY
-    date_start: '2021-04-01'
+    date_start: '2020-04-01'
     date_end: ''
     description: |2-
         * Developed a Python [compartmental simulation model](https://github.com/peter-i-frazier/group-testing) to predict epidemiological outcomes in college environments
