@@ -22,19 +22,32 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: COVID modeling
+  - title: Data Scientist, COVID-19 Pandemic Response
     company: Cornell University
     company_url: ''
     company_logo:
-    location: California
+    location: Ithaca, NY
     date_start: '2021-04-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        * Developed a Python [compartmental simulation model](https://github.com/peter-i-frazier/group-testing) to predict epidemiological outcomes in college environments
+        * Led housing capacity planning and risk analysis to communicate with stakeholders
+        * Led retrospective parameter estimation and model calibration analysis for the 20-21 academic year
+        * Led analysis of the risk of infection during travel to support travel policy decisions and communication with stakeholders
 
-        * Analysing
-        * Modelling
-        * Deploying
+        All modeling reports are published online [here](https://covid.cornell.edu/testing/modeling/).
+
+  - title: Teaching Assistant
+    company: Cornell University
+    company_url: ''
+    company_logo:
+    location: Ithaca, NY
+    date_start: '2018-08-01'
+    date_end: '2019-12-01'
+    description: |2-
+        * ENGRD 2700: Basic Engineering Probability and Statistics (Fall 2018)
+        * ORIE 3800: Information Systems and Analysis (Spring 2019)
+        * ORIE 4580/5580/5581 Simulation Modeling and Analysis (Fall 2019)
 
   - title: Algorithm Engineer Intern
     company: Cardinal Operations
@@ -43,7 +56,10 @@ experience:
     location: Shanghai, China
     date_start: '2017-06-01'
     date_end: '2017-09-01'
-    description: Taught electronic engineering and researched semiconductor physics.
+    description: |2-
+        * Led a consulting engagement with Budweiser, designing and implementing operations research software for managing warehouse operations
+        * Delivered business region partition, facility location and route planning solutions for SF Express, a large courier company
+
 
 design:
   columns: '2'
