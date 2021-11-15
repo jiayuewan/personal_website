@@ -1,6 +1,6 @@
 ---
 title: Jiayue Wan
-role: PhD student in Operations Research at Cornell University
+role: PhD student in Operations Research
 avatar_filename: avatar.jpg
 bio:
 interests:
