@@ -47,4 +47,4 @@ COVID modeling
 
 Contact me at [jw2529@cornell.edu](mailto:jw2529@cornell.com)
 
-{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/resume_Jiayue_Wan.pdf" "newtab" %}}resume{{% /staticref %}}.
+{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/Resume_Jiayue_Wan_Nov_2021.pdf" "newtab" %}}resume{{% /staticref %}}.
