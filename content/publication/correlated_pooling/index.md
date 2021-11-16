@@ -48,7 +48,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 
+url_pdf: 'https://arxiv.org/pdf/2111.07517.pdf'
 url_code: 'https://github.com/jiayuewan/group-testing-with-household-correlation'
 url_dataset: ''
 url_poster: ''
