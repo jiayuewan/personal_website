@@ -8,7 +8,7 @@ interests:
   - Machine Learning
   - Stochastic Modeling
   - Experimental Design
-  - Simulation
+  - Simulation Optimization
 social:
   - icon: envelope
     icon_pack: fas
