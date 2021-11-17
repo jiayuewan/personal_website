@@ -46,6 +46,7 @@ My research interests lie at the intersection of machine learning and operations
 
 I have also been working with a fabulous [COVID mathematical modeling team](https://datasciencecenter.cornell.edu/covid-19-modeling/) to model the spread of COVID-19 since pandemic began. Leveraging techniques from stochastic modeling, simulation and optimization, our model directly guided Cornell's president and provost on reopening and intervention decisions, and has influenced policies at many other US universities. Our work has appeared in news media such as [ABC news](https://abcnews.go.com/GMA/Wellness/video/cornell-university-exclusive-contained-covid-19-73163035), the [Wall Street Journal](https://www.wsj.com/articles/why-cornell-will-reopen-in-the-fall-11593535516), the [Asahi Shimbun](https://www.asahi.com/articles/ASP1R3F85P1NULFA00T.html) and [more](https://datasciencecenter.cornell.edu/cornells-covid-19-modeling-media-coverage/).
 
+In my spare time I like {{< icon name="hiking" pack="fas" >}} hiking, {{< icon name="utensils" pack="fas" >}} cooking, and trying something new.
 
 {{< icon name="envelope" pack="fas" >}} Contact me at [jw2529@cornell.edu](mailto:jw2529@cornell.com).
 
