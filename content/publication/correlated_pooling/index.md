@@ -16,7 +16,7 @@ author_notes:
 - "Equal contribution"
 
 
-date: "2021-11-01T00:00:00Z"
+date: "2022-01-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -29,10 +29,10 @@ publishDate:
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: Preprint on arXiv
+publication: Submitted to *Management Science*
 # publication_short:
 
-abstract: "Population-wide screening to identify and isolate infectious individuals is a powerful tool for controlling COVID-19 and other infectious diseases. Testing an entire population, however, requires significant resources. Group testing can enable large-scale screening by testing more people with fewer resources, but dilution degrades its sensitivity, reducing its effectiveness as an infection control measure. Analysis of this tradeoff typically assumes that pooled samples are independent. Building on recent empirical results in the literature, we argue that this assumption significantly underestimates the true benefits of group testing. Indeed, placing samples from a social group or household into the same pool correlates a pool's samples. As a result, a positive pool likely contains multiple positive samples, increasing a pooled test's sensitivity and also tending to reduce the number of pools that require follow-up tests. We prove that under a general correlation structure, pooling correlated samples together (called _correlated pooling_) achieves higher sensitivity and requires fewer tests per positive identified compared to independently pooling the samples (called _naive pooling_) using the same pool size within the two-stage Dorfman procedure, the most widely-used group testing method. To the best of our knowledge, our work is the first to theoretically characterize correlation's effect on sensitivity, and the first to study its effect on test usage under a realistic test error model. Under a representative starting prevalence of 1%, simulation results estimate that correlated pooling requires 12.9% fewer tests than naive pooling to control an epidemic. Thus, we argue that correlation is an important consideration for policy-makers designing infection control interventions: it makes screening more attractive for infection control and it suggests that sample collection should maximize correlation."
+abstract: "Population-wide screening to identify and isolate infectious individuals is a powerful tool for controlling COVID-19 and other infectious diseases. Testing an entire population, however, requires significant resources. Group testing can enable large-scale screening, but dilution degrades its sensitivity, reducing its effectiveness as an infection control measure. Analysis of this tradeoff typically assumes pooled samples are independent. Building on recent empirical results in the literature, we argue that this assumption significantly underestimates group testing’s true benefits. Indeed, placing samples from a social group into the same pool correlates a pool’s samples. Hence, a positive pool likely contains multiple positive samples, increasing a pooled test’s sensitivity and also tending to reduce the number of pools requiring follow-up testing. We prove that under a general correlation structure, pooling correlated samples together (called _correlated pooling_) achieves higher sensitivity and requires fewer tests per positive identified compared to independently pooling the samples (called _naive pooling_) using the same pool size within the classic two-stage Dorfman procedure. To the best of our knowledge, our work is the first to theoretically characterize correlation’s effect on sensitivity and test usage under models of general correlation structure and realistic test errors. Under a 1% starting prevalence, simulation results estimate that correlated pooling requires 12.9% fewer tests than naive pooling to achieve infection control. Thus, we argue that correlation is an important consideration for policy-makers designing infection control interventions: it makes screening more attractive for infection control and it suggests that sample collection should maximize correlation."
 
 
 # Summary. An optional shortened abstract.
