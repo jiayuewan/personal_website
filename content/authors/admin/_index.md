@@ -40,7 +40,7 @@ superuser: true
 highlight_name: true
 email: ""
 ---
-I'm a fourth year PhD student in [Operations Research](https://www.orie.cornell.edu/orie) at [Cornell University](https://www.cornell.edu), where I am fortunate to be advised by Professor [Peter Frazier](https://people.orie.cornell.edu/pfrazier/). Prior to Cornell, I completed my undergraduate in Mathematics and Physics at [Haverford College](https://www.haverford.edu) and earned my Master's degree in Management Science & Engineering at [Stanford University](https://www.stanford.edu).
+I'm a fifth year PhD student in [Operations Research](https://www.orie.cornell.edu/orie) at [Cornell University](https://www.cornell.edu), where I am fortunate to be advised by Professor [Peter Frazier](https://people.orie.cornell.edu/pfrazier/). Prior to Cornell, I completed my undergraduate in Mathematics and Physics at [Haverford College](https://www.haverford.edu) and earned my Master's degree in Management Science & Engineering at [Stanford University](https://www.stanford.edu).
 
 My research interests lie at the intersection of machine learning and operations research. My current research focuses on designing novel Bayesian optimization algorithms for drug discovery and materials design. More generally, I am interested in researching and utilizing data science, operations research and machine learning to engender substantial real-world impact.
 

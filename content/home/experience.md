@@ -22,13 +22,33 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Part-time Student Researcher
+    company: Meta
+    company_url: ''
+    company_logo:
+    location: Menlo Park, CA
+    date_start: '2022-08-01'
+    date_end: 
+    description: |2-
+        * Core Data Science (Adaptive Experimentation Team)
+
+  - title: Research Engineering Intern
+    company: Meta
+    company_url: ''
+    company_logo:
+    location: Menlo Park, CA
+    date_start: '2022-05-01'
+    date_end: '2022-08-01'
+    description: |2-
+        * Core Data Science (Adaptive Experimentation Team)
+
   - title: Data Scientist, COVID-19 Pandemic Response
     company: Cornell University
     company_url: ''
     company_logo:
     location: Ithaca, NY
     date_start: '2020-04-01'
-    date_end: ''
+    date_end: '2022-05-01'
     description: |2-
         * Developed a Python [compartmental simulation model](https://github.com/peter-i-frazier/group-testing) to predict epidemiological outcomes in college environments
         * Led housing capacity planning and risk analysis to communicate with stakeholders
