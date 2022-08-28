@@ -26,7 +26,7 @@ experience:
     company: Meta
     company_url: 'https://research.facebook.com/teams/core-data-science/'
     company_logo:
-    location: Menlo Park, CA
+    location: Remote
     date_start: '2022-08-01'
     date_end: 
     description: |2-
