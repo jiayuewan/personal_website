@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Part-time Student Researcher
     company: Meta
-    company_url: ''
+    company_url: 'https://research.facebook.com/teams/core-data-science/'
     company_logo:
     location: Menlo Park, CA
     date_start: '2022-08-01'
@@ -34,7 +34,7 @@ experience:
 
   - title: Research Engineering Intern
     company: Meta
-    company_url: ''
+    company_url: 'https://research.facebook.com/teams/core-data-science/'
     company_logo:
     location: Menlo Park, CA
     date_start: '2022-05-01'
