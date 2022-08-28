@@ -44,7 +44,7 @@ experience:
 
   - title: Data Scientist, COVID-19 Pandemic Response
     company: Cornell University
-    company_url: ''
+    company_url: 'https://datasciencecenter.cornell.edu/covid-19-modeling/'
     company_logo:
     location: Ithaca, NY
     date_start: '2020-04-01'
