@@ -44,9 +44,7 @@ I'm a fifth year PhD student in [Operations Research](https://www.orie.cornell.e
 
 My research interests lie at the intersection of machine learning and operations research. My current research focuses on designing novel Bayesian optimization algorithms for drug discovery and materials design. More generally, I am interested in researching and utilizing data science, operations research and machine learning to engender substantial real-world impact.
 
-
-In Summer 2022, I interned at Meta Core Data Science (CDS) in the Adaptive experimentation team, mentored by [Daniel Jiang](https://research.facebook.com/people/jiang-daniel/). In Fall 2022, I will continue my work at CDS as a student researcher.
-
+In Summer 2022, I interned at [Meta Core Data Science](https://research.facebook.com/teams/core-data-science/) (CDS) in the Adaptive experimentation team, mentored by [Daniel Jiang](https://research.facebook.com/people/jiang-daniel/). In Fall 2022, I will continue my work at Meta as a student researcher.
 
 In April 2020 - May 2022, I worked with a fabulous [COVID mathematical modeling team](https://datasciencecenter.cornell.edu/covid-19-modeling/) to model the spread of COVID-19 since pandemic began. Leveraging techniques from stochastic modeling, simulation and optimization, our model directly guided Cornell's president and provost on reopening and intervention decisions, and has influenced policies at many other US universities. Our work has appeared in news media such as [ABC news](https://abcnews.go.com/GMA/Wellness/video/cornell-university-exclusive-contained-covid-19-73163035), the [Wall Street Journal](https://www.wsj.com/articles/why-cornell-will-reopen-in-the-fall-11593535516), the [Asahi Shimbun](https://www.asahi.com/articles/ASP1R3F85P1NULFA00T.html) and [more](https://datasciencecenter.cornell.edu/cornells-covid-19-modeling-media-coverage/).
 

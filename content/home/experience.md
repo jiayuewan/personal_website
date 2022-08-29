@@ -30,7 +30,7 @@ experience:
     date_start: '2022-08-01'
     date_end: 
     description: |2-
-        * Core Data Science (Adaptive Experimentation Team)
+        Core Data Science (Adaptive Experimentation Team)
 
   - title: Research Engineering Intern
     company: Meta
@@ -40,7 +40,7 @@ experience:
     date_start: '2022-05-01'
     date_end: '2022-08-01'
     description: |2-
-        * Core Data Science (Adaptive Experimentation Team)
+        Core Data Science (Adaptive Experimentation Team)
 
   - title: Data Scientist, COVID-19 Pandemic Response
     company: Cornell University
