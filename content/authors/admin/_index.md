@@ -13,15 +13,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:jw2529@cornell.edu
-#  - icon: google-scholar
-#    icon_pack: ai
-#    link: https://scholar.google.com/citations?user=ULPMP4UAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/jiayuewan
   - icon: linkedin
     icon_pack: fab
     link: https://linkedin.com/in/jiayuewan
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/jiayuewan
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=ULPMP4UAAAAJ&hl=en
 organizations:
   - name: Cornell University
     url: https://www.cornell.edu/
