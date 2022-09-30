@@ -13,9 +13,6 @@ authors:
 - admin
 - Lorin D. Warnick
 
-# Author notes (optional)
-author_notes:
-
 date: "2022-05-01T00:00:00Z"
 doi: ""
 
@@ -32,7 +29,7 @@ publication_types: ["2"]
 publication: In *JAMA Network Open* 2022;5(5):e2212906
 # publication_short:
 
-abstract: ""
+abstract:
 
 
 # Summary. An optional shortened abstract.
