@@ -1,6 +1,6 @@
 ---
 title: Jiayue Wan
-role: PhD student in Operations Research
+role: PhD candidate in Operations Research
 avatar_filename: avatar.jpg
 bio:
 interests:
