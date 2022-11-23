@@ -1,5 +1,5 @@
 ---
-title: "Boosters protect against SARS-CoV-2 infections in young adults during an Omicron-predominant period"
+title: "Booster vaccination protection against SARS-CoV-2 infections in young adults during an Omicron-predominant period: a retrospective cohort study"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
