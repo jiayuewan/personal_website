@@ -1,5 +1,6 @@
 ---
-title: Publications
+widget: featured
+title: Selected Publications
 cms_exclude: true
 
 # View.
@@ -13,4 +14,8 @@ view: 4
 header:
   caption: ""
   image: ""
+
 ---
+
+
+
