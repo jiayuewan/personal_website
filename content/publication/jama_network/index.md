@@ -26,7 +26,7 @@ publishDate:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *JAMA Network Open* 2022;5(5):e2212906
+publication: In *JAMA Network Open* 5(5):e2212906
 # publication_short:
 
 abstract:
