@@ -20,7 +20,7 @@ main:
     url: '#talks'
     weight: 50
   - name: Resume
-    url: 'uploads/RESUME_JIAYUE_WAN_FEB_2022.pdf'
+    url: 'uploads/RESUME_JIAYUE_WAN_NOV_2022.pdf'
     weight: 60
 
 # Link to a PDF of your resume/CV from the menu.

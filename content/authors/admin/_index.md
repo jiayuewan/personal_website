@@ -29,7 +29,7 @@ education:
   courses:
     - course: Ph.D. in Operations Research
       institution: Cornell University
-      year: Expected May 2023
+      year: Expected 2024
     - course: M.S. in Management Science & Engineering
       institution: Stanford University
       year: 2018
@@ -52,4 +52,4 @@ In my spare time I like {{< icon name="hiking" pack="fas" >}} hiking, {{< icon n
 
 {{< icon name="envelope" pack="fas" >}} Contact me at [jw2529@cornell.edu](mailto:jw2529@cornell.com).
 
-{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/RESUME_JIAYUE_WAN_FEB_2022.pdf" "newtab" %}}resume{{% /staticref %}} (last updated February 2022).
+{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/RESUME_JIAYUE_WAN_NOV_2022.pdf" "newtab" %}}resume{{% /staticref %}} (last updated November 2022).
