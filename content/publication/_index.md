@@ -1,5 +1,5 @@
 ---
-widget: featured
+# widget: featured
 title: Selected Publications
 cms_exclude: true
 
