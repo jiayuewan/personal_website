@@ -4,7 +4,7 @@ title: Fighting COVID-19 at Cornell
 event: OR Advances Through Collaboration (ORACL) Workshop 2021
 event_url:
 
-location: virtual
+location: Virtual
 address:
   street:
   city:
