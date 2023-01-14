@@ -47,13 +47,13 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004153'
+url_pdf: 'https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1004153&type=printable'
 url_code: 'https://github.com/jiayuewan/booster_effectiveness'
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004153'
 url_video: ''
 
 # Featured image
