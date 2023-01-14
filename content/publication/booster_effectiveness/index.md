@@ -47,7 +47,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004153#sec015'
+url_pdf: 'https://www.medrxiv.org/content/10.1101/2022.03.08.22272056v2.full.pdf'
 url_code: 'https://github.com/jiayuewan/booster_effectiveness'
 url_dataset: ''
 url_poster: ''
