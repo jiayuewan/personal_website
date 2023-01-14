@@ -28,7 +28,7 @@ publishDate:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *PLOS Medicine* 20(1):e1004153.
+publication: In *PLOS Medicine* 20(1):e1004153
 # publication_short:
 
 abstract: 
@@ -47,7 +47,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.medrxiv.org/content/10.1101/2022.03.08.22272056v2.full.pdf'
+url_pdf: 'https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004153'
 url_code: 'https://github.com/jiayuewan/booster_effectiveness'
 url_dataset: ''
 url_poster: ''
