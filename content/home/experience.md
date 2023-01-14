@@ -28,7 +28,7 @@ experience:
     company_logo:
     location: Remote
     date_start: '2022-08-01'
-    date_end: 
+    date_end: '2023-01-01'
     description: |2-
         Core Data Science (Adaptive Experimentation Team)
 
