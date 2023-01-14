@@ -28,7 +28,7 @@ publishDate:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: *PLOS Medicine* 20(1):e1004153.
+publication: In *PLOS Medicine* 20(1):e1004153.
 # publication_short:
 
 abstract: 
