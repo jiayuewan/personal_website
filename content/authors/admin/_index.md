@@ -52,4 +52,4 @@ In my spare time I like {{< icon name="hiking" pack="fas" >}} hiking, {{< icon n
 
 {{< icon name="envelope" pack="fas" >}} Contact me at [jw2529@cornell.edu](mailto:jw2529@cornell.com).
 
-{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/RESUME_JIAYUE_WAN_NOV_2022.pdf" "newtab" %}}resume{{% /staticref %}} (last updated November 2022).
+{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/RESUME_JIAYUE_WAN_JAN_2023.pdf" "newtab" %}}resume{{% /staticref %}} (last updated January 2023).
