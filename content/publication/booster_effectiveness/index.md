@@ -53,7 +53,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004153'
+url_source: ''
 url_video: ''
 
 # Featured image
