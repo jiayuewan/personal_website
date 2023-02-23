@@ -21,7 +21,7 @@ social:
     link: https://github.com/jiayuewan
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=ULPMP4UAAAAJ&hl=en
+    link: https://scholar.google.com/citations?user=i_HSb0EAAAAJ
 organizations:
   - name: Cornell University
     url: https://www.cornell.edu/
