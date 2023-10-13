@@ -5,7 +5,7 @@ avatar_filename: avatar.jpg
 bio:
 interests:
   - Bayesian Optimization
-  - Machine Learning
+  - Statistical Learning
   - Stochastic Modeling
   - Experimental Design
   - Simulation Optimization
@@ -42,7 +42,7 @@ email: ""
 ---
 I'm a fifth year PhD student in [Operations Research](https://www.orie.cornell.edu/orie) at [Cornell University](https://www.cornell.edu), where I am fortunate to be advised by Professor [Peter Frazier](https://people.orie.cornell.edu/pfrazier/). Prior to Cornell, I completed my undergraduate in Mathematics and Physics at [Haverford College](https://www.haverford.edu) and earned my Master's degree in Management Science & Engineering at [Stanford University](https://www.stanford.edu).
 
-My research interests lie at the intersection of machine learning and operations research. My current research focuses on designing novel Bayesian optimization algorithms for drug discovery and materials design. More generally, I am interested in researching and utilizing data science, operations research and machine learning to engender substantial real-world impact.
+My research interests lie at the intersection of statistical learning and operations research. My current research focuses on designing novel Bayesian optimization algorithms for drug discovery and materials design. 
 
 In Summer 2022, I interned at [Meta Core Data Science](https://research.facebook.com/teams/core-data-science/) (CDS) in the Adaptive Experimentation team, mentored by [Daniel Jiang](https://research.facebook.com/people/jiang-daniel/). In Fall 2022, I continued my work at Meta as a student researcher.
 
