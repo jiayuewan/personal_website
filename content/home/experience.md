@@ -21,7 +21,19 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+
+
 experience:
+
+  - title: Quantitative Research Intern
+    company: Susquehanna International Group (SIG)
+    company_url: 'https://sig.com/quantitative-research/'
+    company_logo:
+    location: Bala Cynwyd, PA
+    date_start: '2023-06-01'
+    date_end: '2023-08-01'
+    description: |2-
+        
   - title: Part-time Student Researcher
     company: Meta
     company_url: 'https://research.facebook.com/teams/core-data-science/'
