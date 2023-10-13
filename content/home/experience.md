@@ -50,7 +50,7 @@ experience:
     date_start: '2020-04-01'
     date_end: '2022-05-01'
     description: |2-
-        * Developed a Python [compartmental simulation model](https://github.com/peter-i-frazier/group-testing) to predict epidemiological outcomes in college environments
+        * Developed a Python [compartmental simulation model](https://github.com/peter-i-frazier/group-testing) to forecast epidemiological outcomes in college environments
         * Led housing capacity planning and risk analysis to communicate with stakeholders
         * Led retrospective parameter estimation and model calibration analysis for the 20-21 academic year
         * Led analysis of the risk of infection during travel to support travel policy decisions and communication with stakeholders
