@@ -16,9 +16,9 @@ main:
   - name: Publications
     url: '#publications'
     weight: 40
-  - name: Talks
-    url: '#talks'
-    weight: 50
+  # - name: Talks
+  #   url: '#talks'
+  #   weight: 50
   - name: Resume
     url: 'uploads/RESUME_JIAYUE_WAN_OCT_2023.pdf'
     weight: 60
