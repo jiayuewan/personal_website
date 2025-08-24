@@ -24,9 +24,17 @@ date_format: Jan 2006
 
 
 experience:
+  - title: Quantitative Researcher
+    company: Susquehanna International Group
+    company_url: 'https://sig.com/quantitative-research/'
+    company_logo:
+    location: Bala Cynwyd, PA
+    date_start: '2024-08-01'
+    date_end:
+    description: |2-
 
   - title: Quantitative Research Intern
-    company: Susquehanna International Group (SIG)
+    company: Susquehanna International Group
     company_url: 'https://sig.com/quantitative-research/'
     company_logo:
     location: Bala Cynwyd, PA
