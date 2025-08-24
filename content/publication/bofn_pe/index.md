@@ -1,12 +1,15 @@
 ---
-title: "Correlation Improves Group Testing: Modeling Concentration-Dependent Test Errors"
+title: "Bayesian Optimization of Function Networks with Partial Evaluations"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Poompol Buathong
 - admin
-- Yujia Zhang
+- Raul Astudillo
+- Sam Daulton
+- Maximilian Balandat
 - Peter I. Frazier
 
 # Author notes (optional)
@@ -14,7 +17,7 @@ author_notes:
 - "Equal contribution"
 - "Equal contribution"
 
-date: "2025-03-01T00:00:00Z"
+date: "2024-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -24,14 +27,13 @@ publishDate:
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: To appear at *Management Science*
+publication: *Proceedings of the 41st International Conference on Machine Learning, PMLR*
 # publication_short:
 
-abstract: "Population-wide screening is a powerful tool for controlling infectious diseases. Group testing enables such screening despite limited resources. Viral concentration of pooled samples are often positively correlated, either because prevalence and sample collection are influenced by location, or through intentional enhancement via pooling samples according to risk/household. Such correlation is known to improve efficiency under fixed test sensitivity. However, in reality, a test's sensitivity depends on the concentration of the analyte (e.g., viral RNA), as in the so-called dilution effect, where sensitivity decreases for larger pools. We show that concentration-dependent test error alters correlation's effect under the most widely-used group testing procedure, the two-stage Dorfman procedure. We prove that when test sensitivity increases with concentration, pooling correlated samples together (correlated pooling) achieves asymptotically higher sensitivity than independently pooling the samples (naive pooling). In contrast, in the concentration-independent case, correlation does not affect sensitivity. Moreover, with concentration-dependent errors, correlation can degrade test efficiency compared to naive pooling whereas under concentration-independent errors, correlation always improves efficiency. We propose an alternative measure of test resource usage, the number of positives found per test consumed, which we argue is better aligned with infection control, and show that correlated pooling outperforms naive pooling on this measure. In simulation, we show that the effect of correlation under realistic concentration-dependent test error meaningfully differs from correlation's effect assuming fixed sensitivity. Our findings underscore the importance for policy-makers of using models that incorporate naturally-occurring correlation and of considering ways of strengthening this correlation."
-
+abstract: "Bayesian optimization is a powerful framework for optimizing functions that are expensive or time-consuming to evaluate. Recent work has considered Bayesian optimization of function networks (BOFN), where the objective function is given by a network of functions, each taking as input the output of previous nodes in the network as well as additional parameters. Leveraging this network structure has been shown to yield significant performance improvements. Existing BOFN algorithms for general-purpose networks evaluate the full network at each iteration. However, many real-world applications allow for evaluating nodes individually. To exploit this, we propose a novel knowledge gradient acquisition function that chooses which node and corresponding inputs to evaluate in a cost-aware manner, thereby reducing query costs by evaluating only on a part of the network at each step. We provide an efficient approach to optimizing our acquisition function and show that it outperforms existing BOFN methods and other benchmarks across several synthetic and real-world problems. Our acquisition function is the first to enable cost-aware optimization of a broad class of function networks."
 
 # Summary. An optional shortened abstract.
 summary:
@@ -46,8 +48,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2111.07517.pdf'
-url_code: 'https://github.com/zyyjjj/corr_pooling_replication_package'
+url_pdf: 'https://proceedings.mlr.press/v235/buathong24a.html'
+url_code: 'https://github.com/frazier-lab/partial_kgfn'
 url_dataset: ''
 url_poster: ''
 url_project: ''
