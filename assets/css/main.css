@@ -23,12 +23,12 @@
 
 /* ---------- Tokens ---------- */
 :root {
-  --bg: #fbfbfc;
-  --surface: #f1f3f6;
-  --text: #1a1d23;
-  --muted: #545b68;
-  --faint: #6b7280;
-  --border: #e2e5ea;
+  --bg: #f3f5f2;              /* soft sage-gray, not pure white */
+  --surface: #e7ebe7;
+  --text: #1e2422;
+  --muted: #4c5652;
+  --faint: #626c68;
+  --border: #d9dfda;
   --accent: #0f6b5c;          /* deep teal */
   --accent-strong: #0a5145;
   --accent-soft: rgba(15, 107, 92, 0.08);
