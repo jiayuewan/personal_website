@@ -1,11 +1,15 @@
-# IDEs
-.idea/
-
 # Hugo
+/public/
 /resources/
-public/
-jsconfig.json
-node_modules/
+.hugo_build.lock
 
-# Local Netlify folder
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Netlify
 .netlify
+
+# Claude preview screenshots
+/Claude outputs/

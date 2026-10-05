@@ -3,11 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.87.0"
-  HUGO_ENABLEGITINFO = "true"
-
-[context.production.environment]
-  HUGO_ENV = "production"
+  HUGO_VERSION = "0.167.0"
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
@@ -15,7 +11,8 @@
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
+# Old CV links (e.g. shared before an update) point to the current CV.
+[[redirects]]
+  from = "/uploads/CV_JIAYUE_WAN_AUG_2025.pdf"
+  to = "/uploads/CV_JIAYUE_WAN_JUN_2026.pdf"
+  status = 301

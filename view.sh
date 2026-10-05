@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-
-hugo server --disableFastRender --i18n-warnings
+# Preview the site locally at http://localhost:1313
+hugo server --disableFastRender

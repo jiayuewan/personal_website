@@ -1,0 +1,16 @@
+<header class="site-header">
+  <nav class="container nav" aria-label="Main">
+    <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <ul class="nav-links">
+      {{- range site.Menus.main }}
+      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+      {{- end }}
+      {{- with site.Params.cv }}
+      <li><a href="{{ . }}" target="_blank" rel="noopener">CV</a></li>
+      {{- end }}
+    </ul>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+      {{ partial "icon.html" "moon" }}{{ partial "icon.html" "sun" }}
+    </button>
+  </nav>
+</header>

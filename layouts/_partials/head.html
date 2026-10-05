@@ -1,0 +1,81 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $title := site.Title }}
+{{- if .IsHome }}{{ $title = printf "%s — %s" site.Title site.Params.role }}{{ else }}{{ $title = printf "%s | %s" .Title site.Title }}{{ end }}
+{{- $desc := site.Params.description }}
+{{- with .Params.abstract }}{{ $desc = . | plainify | truncate 200 }}{{ end }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<meta name="author" content="{{ site.Params.author }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbfbfc" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222833" media="(prefers-color-scheme: dark)">
+{{- with site.Params.googleSiteVerification }}
+<meta name="google-site-verification" content="{{ . }}">
+{{- end }}
+
+{{- /* Prevent a flash of the wrong theme: apply the saved choice before CSS paints. */}}
+<script>(function(){try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t;}catch(e){}})();</script>
+
+<link rel="preload" href="{{ "fonts/inter-latin-wght-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/source-serif-4-latin-wght-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+{{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+{{- with resources.Get "images/icon.png" }}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ (.Resize "32x32").RelPermalink }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ (.Resize "180x180").RelPermalink }}">
+{{- end }}
+
+{{- /* Open Graph / social previews */}}
+{{- $img := resources.Get site.Params.avatar }}
+<meta property="og:type" content="{{ if .IsHome }}profile{{ else }}article{{ end }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{- with $img }}
+<meta property="og:image" content="{{ (.Fill "600x600 Top").Permalink }}">
+{{- end }}
+<meta name="twitter:card" content="summary">
+
+{{- if .IsHome }}
+<script type="application/ld+json">
+{{- $sameAs := slice }}
+{{- range site.Params.social }}{{ $sameAs = $sameAs | append .url }}{{ end }}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" site.Params.author
+  "url" site.BaseURL
+  "jobTitle" site.Params.role
+  "worksFor" (dict "@type" "Organization" "name" site.Params.organization "url" site.Params.organizationURL)
+  "alumniOf" (slice (dict "@type" "CollegeOrUniversity" "name" "Cornell University") (dict "@type" "CollegeOrUniversity" "name" "Stanford University") (dict "@type" "CollegeOrUniversity" "name" "Haverford College"))
+  "sameAs" $sameAs
+}}
+{{- with $img }}{{ $person = merge $person (dict "image" (.Fill "600x600 Top").Permalink) }}{{ end }}
+{{ $person | jsonify | safeJS }}
+</script>
+{{- end }}
+
+{{- if eq .Section "publication" }}{{ if .IsPage }}
+{{- /* Highwire Press tags, read by Google Scholar */}}
+<meta name="citation_title" content="{{ .Title }}">
+{{- range .Params.authors }}
+<meta name="citation_author" content="{{ strings.TrimSuffix "*" . }}">
+{{- end }}
+<meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}">
+{{- if ne .Params.type "preprint" }}{{ with .Params.venue }}
+{{- /* Use the italicized part of the venue (e.g. "*Management Science* 72(7)") as the journal/conference name. */}}
+{{- $name := . }}
+{{- with findRE `\*[^*]+\*` . 1 }}{{ $name = strings.Trim (index . 0) "*" }}{{ end }}
+<meta name="{{ if eq $.Params.type "conference" }}citation_conference_title{{ else }}citation_journal_title{{ end }}" content="{{ $name | plainify }}">
+{{- end }}{{ end }}
+{{- with .Params.links.pdf }}
+<meta name="citation_pdf_url" content="{{ . }}">
+{{- end }}
+{{- with .Params.doi }}
+<meta name="citation_doi" content="{{ . }}">
+{{- end }}
+{{- end }}{{ end }}

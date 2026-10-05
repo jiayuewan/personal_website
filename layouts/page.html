@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="article">
+  <p class="eyebrow"><a href="{{ "/#publications" | relURL }}">← Publications</a></p>
+  <h1 class="article-title">{{ .Title }}</h1>
+  {{- with .Params.authors }}<p class="pub-authors">{{ partial "authors.html" . }}</p>{{ end }}
+  <p class="pub-venue">{{ with .Params.venue }}{{ . | markdownify }}, {{ end }}{{ .Date.Year }}</p>
+  {{- with .Params.links }}<div class="pub-actions">{{ partial "links.html" $ }}</div>{{ end }}
+  {{- with .Params.abstract }}
+  <h2 class="label">Abstract</h2>
+  <div class="prose"><p>{{ . }}</p></div>
+  {{- end }}
+  {{- with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  {{- $note := false }}{{ range .Params.authors }}{{ if strings.HasSuffix . "*" }}{{ $note = true }}{{ end }}{{ end }}
+  {{- if $note }}<p class="section-note"><sup>*</sup> Equal contribution</p>{{ end }}
+</article>
+{{ end }}

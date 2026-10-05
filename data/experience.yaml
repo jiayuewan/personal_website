@@ -1,0 +1,63 @@
+# Most recent first. Leave `end` empty for a current role. `description` is Markdown.
+- title: Quantitative Researcher
+  company: Susquehanna International Group
+  url: https://sig.com/quantitative-research/
+  location: Bala Cynwyd, PA
+  start: 2024-08
+  end:
+
+- title: Quantitative Research Intern
+  company: Susquehanna International Group
+  url: https://sig.com/quantitative-research/
+  location: Bala Cynwyd, PA
+  start: 2023-06
+  end: 2023-08
+
+- title: Part-time Student Researcher
+  company: Meta
+  url: https://research.facebook.com/teams/core-data-science/
+  location: Remote
+  start: 2022-08
+  end: 2023-01
+  description: Core Data Science (Adaptive Experimentation Team)
+
+- title: Research Engineering Intern
+  company: Meta
+  url: https://research.facebook.com/teams/core-data-science/
+  location: Menlo Park, CA
+  start: 2022-05
+  end: 2022-08
+  description: Core Data Science (Adaptive Experimentation Team)
+
+- title: Data Scientist, COVID-19 Pandemic Response
+  company: Cornell University
+  url: https://datasciencecenter.cornell.edu/covid-19-modeling/
+  location: Ithaca, NY
+  start: 2020-04
+  end: 2022-05
+  description: |-
+    - Developed a Python [compartmental simulation model](https://github.com/peter-i-frazier/group-testing) to forecast epidemiological outcomes in college environments
+    - Led housing capacity planning and risk analysis to communicate with stakeholders
+    - Led retrospective parameter estimation and model calibration analysis for the 2020–21 academic year
+    - Led analysis of the risk of infection during travel to support travel policy decisions and communication with stakeholders
+
+    All modeling reports are published [online](https://covid.cornell.edu/testing/modeling/).
+
+- title: Teaching Assistant
+  company: Cornell University
+  location: Ithaca, NY
+  start: 2018-08
+  end: 2019-12
+  description: |-
+    - ENGRD 2700: Basic Engineering Probability and Statistics (Fall 2018)
+    - ORIE 3800: Information Systems and Analysis (Spring 2019)
+    - ORIE 4580/5580/5581: Simulation Modeling and Analysis (Fall 2019)
+
+- title: Algorithm Engineer Intern
+  company: Cardinal Operations
+  location: Shanghai, China
+  start: 2017-06
+  end: 2017-09
+  description: |-
+    - Led a consulting engagement with Budweiser, designing and implementing operations research software for managing warehouse operations
+    - Delivered business region partition, facility location and route planning solutions for SF Express, a large courier company

@@ -1,0 +1,9 @@
+{{- $labels := dict "pdf" "PDF" "code" "Code" "dataset" "Dataset" "poster" "Poster" "project" "Project" "slides" "Slides" "source" "Source" "video" "Video" -}}
+{{- range $key := slice "pdf" "code" "dataset" "poster" "project" "slides" "source" "video" -}}
+  {{- with index $.Params.links $key }}
+  <a class="chip" href="{{ . }}" target="_blank" rel="noopener">{{ index $labels $key }}</a>
+  {{- end -}}
+{{- end -}}
+{{- with .Params.doi }}
+  <a class="chip" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI</a>
+{{- end -}}

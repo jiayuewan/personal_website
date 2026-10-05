@@ -1,0 +1,15 @@
+# Talks (hidden on the homepage; set params.showTalks = true in hugo.toml to display)
+- title: Bayesian Optimization in Materials Design
+  event: 2022 INFORMS Annual Meeting
+  location: Indianapolis, IN
+  date: '2022-10-16'
+- title: Fighting COVID-19 at Cornell
+  event: OR Advances Through Collaboration (ORACL) Workshop 2021
+  location: Virtual
+  date: '2021-11-15'
+  slides: /uploads/ORACL_2021.pdf
+- title: COVID Modeling at Cornell
+  event: CS/ORIE/STSCI 1380 (Data Science for All) Lecture
+  location: Cornell University
+  date: '2021-05-07'
+  slides: /uploads/Data_Science_for_All_Presentation.pdf

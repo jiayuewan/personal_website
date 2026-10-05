@@ -1,0 +1,8 @@
+{{- $me := site.Params.author -}}
+{{- range $i, $a := . -}}
+  {{- $equal := strings.HasSuffix $a "*" -}}
+  {{- $name := strings.TrimSuffix "*" $a -}}
+  {{- if $i }}, {{ end -}}
+  {{- if eq $name $me }}<strong class="me">{{ $name }}</strong>{{ else }}{{ $name }}{{ end -}}
+  {{- if $equal }}<sup title="Equal contribution">*</sup>{{ end -}}
+{{- end -}}

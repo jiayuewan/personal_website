@@ -1,0 +1,83 @@
+{{ define "main" }}
+<section class="hero" id="about" aria-label="About">
+  {{- with resources.Get site.Params.avatar }}
+  {{- $s := .Fill "360x360 Top" }}
+  {{- $l := .Fill "720x720 Top" }}
+  <img class="avatar" src="{{ $s.RelPermalink }}" srcset="{{ $s.RelPermalink }} 1x, {{ $l.RelPermalink }} 2x"
+       width="180" height="180" alt="Portrait of {{ site.Params.author }}" fetchpriority="high">
+  {{- end }}
+  <div class="hero-text">
+    <h1>{{ site.Params.author }}</h1>
+    <p class="role">{{ site.Params.role }} at <a href="{{ site.Params.organizationURL }}">{{ site.Params.organization }}</a></p>
+    <p class="role-sub">Ph.D., Operations Research, Cornell University</p>
+    <ul class="social" aria-label="Profiles">
+      {{- range site.Params.social }}
+      <li><a href="{{ .url }}" target="_blank" rel="noopener me" aria-label="{{ .name }}" title="{{ .name }}">{{ partial "icon.html" .icon }}</a></li>
+      {{- end }}
+      {{- with site.Params.cv }}
+      <li><a class="cv-link" href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "cv" }}<span>CV</span></a></li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+
+<div class="prose bio">
+  {{ .Content }}
+</div>
+
+<div class="facts">
+  <div>
+    <h2 class="label">Interests</h2>
+    <ul class="plain">
+      {{- range hugo.Data.profile.interests }}<li>{{ . }}</li>{{ end }}
+    </ul>
+  </div>
+  <div>
+    <h2 class="label">Education</h2>
+    <ul class="plain edu">
+      {{- range hugo.Data.profile.education }}
+      <li><span>{{ .degree }}</span><span class="muted">{{ .institution }}, {{ .year }}</span></li>
+      {{- end }}
+    </ul>
+  </div>
+</div>
+
+<section id="experience" class="section" aria-labelledby="experience-h">
+  <h2 id="experience-h">Experience</h2>
+  <ol class="timeline">
+    {{- range hugo.Data.experience }}
+    <li>
+      <p class="when">{{ partial "month.html" .start }} – {{ with .end }}{{ partial "month.html" . }}{{ else }}Present{{ end }}</p>
+      <div class="what">
+        <h3>{{ .title }}</h3>
+        <p class="org">{{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .company }}{{ with .url }}</a>{{ end }}<span class="muted"> · {{ .location }}</span></p>
+        {{- with .description }}<div class="prose small">{{ . | markdownify }}</div>{{ end }}
+      </div>
+    </li>
+    {{- end }}
+  </ol>
+</section>
+
+<section id="publications" class="section" aria-labelledby="publications-h">
+  <h2 id="publications-h">Publications</h2>
+  {{ partial "publication-list.html" . }}
+</section>
+
+{{- if site.Params.showTalks }}
+<section id="talks" class="section" aria-labelledby="talks-h">
+  <h2 id="talks-h">Talks</h2>
+  <ol class="timeline">
+    {{- range hugo.Data.talks }}
+    <li>
+      <p class="when">{{ (time.AsTime .date).Format "Jan 2006" }}</p>
+      <div class="what">
+        <h3>{{ .title }}</h3>
+        <p class="org">{{ .event }}<span class="muted"> · {{ .location }}</span></p>
+        {{- with .slides }}<div class="pub-actions"><a class="chip" href="{{ . }}" target="_blank" rel="noopener">Slides</a></div>{{ end }}
+      </div>
+    </li>
+    {{- end }}
+  </ol>
+</section>
+{{- end }}
+{{ end }}

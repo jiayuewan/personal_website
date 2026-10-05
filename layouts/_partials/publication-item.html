@@ -1,0 +1,14 @@
+<li class="pub">
+  <h3 class="pub-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  <p class="pub-authors">{{ partial "authors.html" .Params.authors }}</p>
+  <p class="pub-venue">{{ with .Params.venue }}{{ . | markdownify }}, {{ end }}{{ .Date.Year }}</p>
+  <div class="pub-actions">
+    {{- with .Params.abstract }}
+    <details class="abstract">
+      <summary class="chip">Abstract</summary>
+      <p>{{ . }}</p>
+    </details>
+    {{- end }}
+    {{- partial "links.html" . }}
+  </div>
+</li>

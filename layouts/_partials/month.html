@@ -1,0 +1,2 @@
+{{- /* Formats "2024-08" as "Aug 2024". */ -}}
+{{- with . -}}{{- (time.AsTime (printf "%v-01" .)).Format "Jan 2006" -}}{{- end -}}

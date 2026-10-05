@@ -1,0 +1,55 @@
+baseURL = "https://jiayuewan.com/"
+locale = "en-US"
+title = "Jiayue Wan"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+  author = "Jiayue Wan"
+  description = "Quantitative researcher at Susquehanna International Group (SIG). Ph.D. in Operations Research from Cornell University, working on Bayesian optimization and statistical learning."
+  role = "Quantitative Researcher"
+  organization = "Susquehanna International Group"
+  organizationURL = "https://sig.com/"
+  avatar = "images/avatar.jpg"
+  cv = "/uploads/CV_JIAYUE_WAN_JUN_2026.pdf"   # also linked as "CV" in the top menu
+  googleSiteVerification = "7ISRPOKAdssZ7azBUKdJCnt8mIjLrx40SzjBiLQJTW8"
+  showTalks = false
+
+  # Shown as icon links under your name. `icon` must match a name in layouts/partials/icon.html.
+  [[params.social]]
+    name = "LinkedIn"
+    icon = "linkedin"
+    url = "https://linkedin.com/in/jiayuewan"
+  [[params.social]]
+    name = "GitHub"
+    icon = "github"
+    url = "https://github.com/jiayuewan"
+  [[params.social]]
+    name = "Google Scholar"
+    icon = "scholar"
+    url = "https://scholar.google.com/citations?user=i_HSb0EAAAAJ"
+
+[menus]
+  [[menus.main]]
+    name = "About"
+    url = "/#about"
+    weight = 10
+  [[menus.main]]
+    name = "Experience"
+    url = "/#experience"
+    weight = 20
+  [[menus.main]]
+    name = "Publications"
+    url = "/#publications"
+    weight = 30
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+[markup.goldmark.extensions.typographer]
+  disable = false
+
+[imaging]
+  resampleFilter = "lanczos"
+  [imaging.jpeg]
+    quality = 85

@@ -1,0 +1,7 @@
+{{- $pubs := (where site.RegularPages "Section" "publication").ByDate.Reverse }}
+{{- $hasEqual := false }}
+{{- range $pubs }}{{ range .Params.authors }}{{ if strings.HasSuffix . "*" }}{{ $hasEqual = true }}{{ end }}{{ end }}{{ end }}
+{{- if $hasEqual }}<p class="section-note"><sup>*</sup> Equal contribution</p>{{ end }}
+<ol class="pubs" reversed>
+  {{- range $pubs }}{{ partial "publication-item.html" . }}{{ end }}
+</ol>
