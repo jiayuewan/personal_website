@@ -8,6 +8,9 @@
   {{- end }}
   <div class="hero-text">
     <h1>{{ site.Params.author }}</h1>
+    {{- with site.Params.tagline }}
+    <p class="tagline">{{ . }}</p>
+    {{- end }}
     <p class="role">{{ site.Params.role }} at <a href="{{ site.Params.organizationURL }}">{{ site.Params.organization }}</a></p>
     <p class="role-sub">Ph.D., Operations Research, Cornell University</p>
     <ul class="social" aria-label="Profiles">

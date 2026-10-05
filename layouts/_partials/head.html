@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{- $title := site.Title }}
-{{- if .IsHome }}{{ $title = printf "%s — %s" site.Title site.Params.role }}{{ else }}{{ $title = printf "%s | %s" .Title site.Title }}{{ end }}
+{{- if .IsHome }}{{ $title = site.Title }}{{ else }}{{ $title = printf "%s | %s" .Title site.Title }}{{ end }}
 {{- $desc := site.Params.description }}
 {{- with .Params.abstract }}{{ $desc = . | plainify | truncate 200 }}{{ end }}
 <title>{{ $title }}</title>

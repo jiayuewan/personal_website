@@ -6,7 +6,8 @@ disableKinds = ["taxonomy", "term", "rss"]
 
 [params]
   author = "Jiayue Wan"
-  description = "Quantitative researcher at Susquehanna International Group (SIG). Ph.D. in Operations Research from Cornell University, working on Bayesian optimization and statistical learning."
+  description = "Mathematical modeling researcher and quantitative researcher at Susquehanna International Group (SIG). Ph.D. in Operations Research from Cornell University, working on Bayesian optimization, stochastic modeling and statistical learning."
+  tagline = "Mathematical Modeling Researcher"   # largest line under your name
   role = "Quantitative Researcher"
   organization = "Susquehanna International Group"
   organizationURL = "https://sig.com/"

@@ -171,10 +171,11 @@ svg { width: 1em; height: 1em; display: block; }
   box-shadow: 0 0 0 1px var(--border), 0 8px 24px -12px rgba(0,0,0,.35);
 }
 .hero h1 { font-size: clamp(2rem, 1.5rem + 2vw, 2.6rem); margin-bottom: .35rem; }
-.role { font-size: 1.1rem; margin: 0; }
+.tagline { font-size: 1.3rem; font-weight: 400; line-height: 1.35; margin: 0 0 .3rem; color: var(--text); }
+.role { font-size: 1.025rem; margin: 0; color: var(--muted); }
 .role a { text-decoration: none; white-space: nowrap; }
 .role a:hover { text-decoration: underline; }
-.role-sub { color: var(--muted); margin: .1rem 0 0; font-size: .975rem; }
+.role-sub { color: var(--muted); margin: .05rem 0 0; font-size: 1.025rem; }
 
 .social { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; list-style: none; margin: 1.1rem 0 0; padding: 0; }
 .social a {
